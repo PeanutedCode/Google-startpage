@@ -1,0 +1,20 @@
+body{
+    background-color: bisque;
+}
+.heads { 
+   position: relative;
+   left:1150px;
+   top: 2px;
+}
+#sec { 
+    position: relative;
+    left: 430px;
+    top: 45px;
+}
+input {
+    width: 500px;
+}
+button { 
+    height:20px;
+    width: 80px;
+}
