@@ -1,20 +1,81 @@
 body{
-    background-color: bisque;
-}
-.heads { 
-   position: relative;
-   left:1150px;
-   top: 2px;
+    background-color: white;
+    font-family: Arial;
+    font-size: 13px;
 }
 #sec { 
-    position: relative;
-    left: 430px;
-    top: 45px;
+    position: absolute;
+    left: 425px;
+    top: 160px;
 }
-input {
+#search {
     width: 500px;
+height: 40px;
+border-radius: 25px;
+border-width: 1px;
+display: flex;
 }
-button { 
-    height:20px;
+.but {
+    vertical-align: center; 
+    border-radius: 5px;
+    height:36px;
+    width: 124px;
+    border: whitesmoke;
+    background-color: whitesmoke;
+    padding: 5px;
+    margin: 5px;
+}
+}
+#PH { 
+    height: 233px;
+    
+}
+ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 1070px;
+    top: 15px;
+    
+}
+#app {
+    position: relative;
+    top:8px;
+}
+li {
+    display: inline;
+    padding: 9px;
+
+}
+
+#sign { 
+    vertical-align: right;
+    height: 30px;
     width: 80px;
+    background-color:#4285f4;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    border: #4285f4;
+}
+#app { 
+    width: 25px;
+    height: 22px;
+}
+button {
+    height: 35;
+    width: 100;
+}
+p { 
+    text-align: center;
+}
+#key { 
+    position: relative;
+
+left: 465px;
+
+top: 40px;
+
+height: 24px;
 }
