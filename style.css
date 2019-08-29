@@ -5,15 +5,17 @@ body{
 }
 #sec { 
     position: absolute;
-    left: 425px;
-    top: 160px;
+
+    left: 437px;
+
+    top: 197px;
 }
 #search {
     width: 500px;
-height: 40px;
-border-radius: 25px;
-border-width: 1px;
-display: flex;
+    height: 40px;
+    border-radius: 25px;
+    border-width: 1px;
+    display: flex;
 }
 .but {
     vertical-align: center; 
@@ -25,12 +27,13 @@ display: flex;
     padding: 5px;
     margin: 5px;
 }
-}
+
 #PH { 
-    height: 233px;
+    position: relative;
+    left: 100px;
     
 }
-ul { 
+#h { 
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -43,8 +46,11 @@ ul {
     position: relative;
     top:8px;
 }
-li {
-    display: inline;
+
+
+
+.h{
+    display:  inline;
     padding: 9px;
 
 }
@@ -73,9 +79,55 @@ p {
 #key { 
     position: relative;
 
-left: 465px;
+    left: 465px;
 
-top: 40px;
+    top: 40px;
 
-height: 24px;
+    height: 24px;
+}
+#bottom { 
+    position: relative;
+    top: 540px;
+    left: -30px;
+    width: 1395px;
+}
+
+#ua, #else{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    color: rgb(111, 107, 107);
+    
+    
+}
+.right, .left {
+    float: left;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    margin:0;
+}
+.left { 
+    position: relative;
+    left: -8px;
+}
+.o {
+    
+    border-top: 1px solid  rgb(189, 186, 186);
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 55px;
+
+}
+#else {
+    display: block;
+    margin:0;
+    padding:0;
+    height: 45px;
+}
+
+.right { 
+    position: relative;
+    left: 700px;
 }
